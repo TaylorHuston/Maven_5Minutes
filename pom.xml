@@ -17,9 +17,13 @@
   </dependencies>
 
   <build>
+    <filters>
+      <filter>src/main/filters/filter.properties</filter>
+    </filters>
+
     <resources>
       <resource>
-        <directory>src/main/rescources</directory>
+        <directory>src/main/resources</directory>
         <filtering>true</filtering>
       </resource>
     </resources>
